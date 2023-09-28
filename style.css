@@ -1,0 +1,116 @@
+body{
+    font-family: century gothic;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("../furniture/image/6f09772e7ca6b9773de7db8702fc3cb6.jpg@1950w_0e.webp");
+  
+    min-height: 750px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: sticky;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .overlay{
+    color: #ddd;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+  }
+
+.img{
+    width: 463px;
+    height: 350px;
+    background-color: #ffffff;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: relative;
+    top: 5px;
+    bottom: 0px;
+    left: 700px;
+    right: 0px;
+    display: block;
+    
+  }
+
+  .text h6{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 20px;
+    font-weight: 50px;
+    line-height: 25.5px;
+    left: 15px;
+    margin-top: 50px;
+    text-decoration: none solid rgb(48, 49, 51);
+    word-spacing: 0px;
+    background-color: #ffff;
+    background-position:0% 0%;
+    color: #303133;
+    position: relative;
+    display: block;
+    height: 10px;
+    width: 528px;
+    transform: none;
+    transition: all 0s ease 0s;
+    box-sizing: border-box;
+  }
+  .content h3{
+    margin-top: 500px;
+  }
+  .images1{
+     margin-top:650px;
+  }
+  .images1 h6{
+    margin-top: 15px;
+
+
+  }
+  .images2{
+    margin-top: 650px;
+  }
+  .images2 h6{
+    margin-top: 15px;
+  }
+  .images3{
+    margin-top: 650px;
+  }
+  .images3 h6{
+    margin-top: 15px;
+  }
+  #about{
+    margin-top: 1200px;
+  }
+  .copy{
+    margin-top: 350px;
+  }
